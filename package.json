@@ -1,22 +1,30 @@
 {
-  "name": "vite-react",
+  "name": "shopping-cart-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "@ant-design/icons": "^6.0.0",
+    "antd": "^5.12.8",
+    "axios": "^1.6.2",
+    "axios-mock-adapter": "^1.22.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "react-virtualized": "^9.22.6"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
+    "@faker-js/faker": "^9.9.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
+    "@types/react-virtualized": "^9.22.2",
     "@vitejs/plugin-react": "^4.3.1",
     "eslint": "^9.9.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
